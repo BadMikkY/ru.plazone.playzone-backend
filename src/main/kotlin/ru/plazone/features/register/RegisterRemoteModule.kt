@@ -10,6 +10,7 @@ data class RegisterRemoteModule(
     val email: String
 )
 
+@Serializable
 data class RegisterResponceRemote(
     val token: String
 )
