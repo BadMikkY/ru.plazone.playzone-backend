@@ -3,7 +3,7 @@ package ru.plazone.features.login
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class LoginRecieveRemoteModule(
+data class LoginRemoteModule(
     val login: String,
     val password: String,
 )
